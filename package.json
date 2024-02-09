@@ -1,0 +1,15 @@
+{
+  "name": "background-exercise",
+  "version": "1.0.0",
+  "description": "",
+  "main": "back.js",
+
+  "scripts": {
+    "build": "browserify back.js> bundle.js && live-server"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "lodash": "^4.17.21"
+  }
+}
